@@ -24,3 +24,8 @@ The decoder receives the encoder's final hidden and cell states and predicts the
 A `Seq2Seq` class coordinates the encoder and decoder during training and inference, managing the passing of hidden states and input tokens.
 
 
+## Requirements
+- Python 3.7+
+- PyTorch
+- tqdm
+- Hugging Face datasets
